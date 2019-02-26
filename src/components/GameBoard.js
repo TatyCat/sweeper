@@ -21,7 +21,7 @@ class GameBoard extends Component {
           <td> {" - "}</td>
           <td> {" - "}</td>
           <td> {" - "}</td>
-          <td> {" - "}</td>
+          <td className="boom"> {"  "}</td>
           <td> {" - "}</td>
           <td> {" - "}</td>
           <td className="boom"> {" 2 "}</td>
