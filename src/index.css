@@ -52,7 +52,7 @@ td {
 }
 
 p {
-  font-size: calc(1.5rem);
+  font-size: calc(2vh + 1vw);
   color: whitesmoke;
   letter-spacing: .5ch;
   border-bottom: 1px solid white;
@@ -62,4 +62,5 @@ p {
 .boom {
   background-color: rgba(39, 43, 43, 0.699);
   color: greenyellow;
+  border: 1.5px rgb(26, 25, 25) solid;
 }
