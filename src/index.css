@@ -31,17 +31,35 @@ main {
   margin: 2vw;
 }
 
-td {
+tr {
   color: whitesmoke;
   display: flex;
   flex: nowrap column;
   justify-content: center;
+  padding: 0;
+  cursor: pointer;
 }
 
-tr {
-  font-size: calc(3vh + 1vw);
+td {
+  font-size: calc(2vh + 1vw);
   margin: 0;
-  padding: .7vw 2vw;
+  padding: .5vw;
+  width: calc(2vh + 1.5vw);
+  height: calc(2vh + 1.5vw);
   background-color: cyan;
   border: 1.5px rgb(240, 59, 128) solid;
+  text-align: center;
+}
+
+p {
+  font-size: calc(1.5rem);
+  color: whitesmoke;
+  letter-spacing: .5ch;
+  border-bottom: 1px solid white;
+  padding-bottom: .5rem;
+}
+
+.boom {
+  background-color: rgba(39, 43, 43, 0.699);
+  color: greenyellow;
 }
