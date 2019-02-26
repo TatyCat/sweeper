@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Header from './components/Header'
+import GameBoard from './components/GameBoard'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <>
+        <Header />
+        <GameBoard />
+      </>
+    )
   }
 }
 
