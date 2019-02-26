@@ -13,7 +13,7 @@ class GameBoard extends Component {
           <td> {" - "}</td>
           <td> {" - "}</td>
           <td className="boom"> {" 1 "}</td>
-          <td> {" 💣 "}</td>
+          <td className="boom"> {" 💣 "}</td>
         </tr>
         <tr>
           <td> {" - "}</td>
